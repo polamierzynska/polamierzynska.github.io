@@ -17,7 +17,7 @@ const gwiazda = add([sprite("gwiazda"),
     pos(0,30)
 ])
 
-add([play("muzyka")])
+onMouseRelease(()=>play("muzyka"))
 
 
 onUpdate(()=>{
